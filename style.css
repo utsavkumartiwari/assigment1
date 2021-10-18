@@ -1,0 +1,41 @@
+form {
+    width: 100%;
+    font-size: 20px;
+    padding: 11px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(228, 228, 228);
+    line-height: 10px;
+    letter-spacing: 1px;
+    column-count: 2;
+    column-gap: 10px;
+    border-left-width: 370px;
+
+    
+}
+h2 {
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+h2 p{
+    letter-spacing: 2px;
+    font-family: cursive;
+    color: rgb(34, 4, 4);
+    border-left-width: 170px;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right:  -15px;
+    margin-left:  -15px;
+}
