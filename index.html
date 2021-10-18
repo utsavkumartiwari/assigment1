@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assigment.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-warning">
+    <a class="navbar-brand" href="#"><img src="images/travel_logo2.png" height="50" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        LOGIN
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </a>
+       </div>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            INDIAN HOLIDAY
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">INDIAN TRAVEL GUIDELINE</a>
+            <a class="dropdown-item" href="#">ANDAMAN TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">RAJASTHAN TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">HIMACHAL TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">KASHMIR TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">GOA TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">SRILANKA TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">NEPAL TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">UTTRAKHAND TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">KEARLA TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">LADHAK TOUR PACKAGE</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">ASSURED SAFE TRAVEL PROGRAM</a>
+            <a class="dropdown-item" href="#">BUY 1 GET 1 FREE TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">CHAR DHAM TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">RANN UTSAV TOUR PACKAGE</a>
+            <a class="dropdown-item" href="#">WEEKENDS GETWAY</a>
+          </div>
+        
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              NTERNATIONAL HOLIDAY
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">INTERNATIONAL TRAVEL GUIDELINE</a>
+              <a class="dropdown-item" href="#">MALDIVES TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">DUBAI TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">EGYPT TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">TURKEY TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">RUSSIA TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">BANKOK TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">NORWAY TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">HONGKONG TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">PHUKET TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">MAURITIES TOUR PACKAGE</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">ASSURED SAFE TRAVEL PROGRAM</a>
+              <a class="dropdown-item" href="#">BUY 1 GET 1 FREE TOUR PACKAGE</a>
+              <a class="dropdown-item" href="#">SINGAPORE TORISIUM</a>
+              <a class="dropdown-item" href="#">DUBAI TORISIUM</a>
+              <a class="dropdown-item" href="#">BANKOK TORISIUM</a>
+            
+            </div>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SHORT BREAK
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">SHORT BREAK IN ANDAMAN</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN MAHARASHTRA</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN GOA</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN KEARLA</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN HYDERABAD</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN WEST BENGAL</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN ODISHA</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN UTTRAKHAND</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN SRINAGAR</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN KATHMANDU</a>
+                <a class="dropdown-item" href="#">SHORT BREAK IN HIMACHAL</a>
+
+              </div>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  FOREIGN EXCHANGE
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">SHORT BREAK IN ANDAMAN</a>
+                  <a class="dropdown-item" href="#">SHORT BREAK IN MAHARASHTRA</a>
+                  <a class="dropdown-item" href="#">SHORT BREAK IN GOA</a>
+                  <a class="dropdown-item" href="#">SHORT BREAK IN KEARLA</a>
+                </div>
+  
+
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">VISA <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">FLIGHT<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">HOTELS <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">OFFERS<span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">CONTACT US<span class="sr-only">(current)</span></a>
+                </li>
+                
+</div>
+    </div>
+  </nav>
+
+
+</ul>
+<form>
+
+  <input class="form-control" type="text" placeholder="SEARCH">
+<button type="SEARCH" class="btn btn-success">SEARCH</button>
+</form>
+
+
+
+
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/baneer123.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner1234.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner12345.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-pills card-header-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">STORES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">KNOW MORE</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Trending Indian Destinations</h5>
+    <p class="card-text">India’s diverse topography, history and culture offers enough experiences to fulfil any type of wanderlust.
+      So do our India tour packages which cover the length and breadth of the land.
+     The Himalayas are one of the few sights capable of literally taking your breath away. And you can view them
+      up close in our own country. Ranging across the states of Jammu & Kashmir, Himachal Pradesh, Uttarakhand, 
+      Sikkim, Arunachal Pradesh and West Bengal, crossing these mountainous terrains will give you an 
+      otherworldly sense of joy.</p>
+    <a href="#" class="btn btn-primary">Read more...</a>
+  </div>
+</div>
+
+
+
+<div class="card-deck">
+    <div class="card">
+      <img src="images/ukt.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ANDAMAN TOURISIUM</h5>
+        <p class="card-text">The Andaman Islands are an Indian archipelago in the Bay of Bengal. These
+           roughly 300 islands are known for their palm-lined, white-sand beaches, mangroves and tropical 
+           rainforests. Coral reefs supporting marine life such as sharks and rays make for popular diving 
+           and snorkeling sites. Indigenous Andaman Islanders inhabit the more remote islands, many of which
+            are off limits to visitors.</p>
+        <p class="card-text"><small class="text-muted">STARTING FROM Rs-16000/-</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/ukt2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">RAJASTHAN TOURISIUM</h5>
+        <p class="card-text">Rajasthan attracts tourists for its historical forts, palaces, art and culture
+           with its slogan "Padharo mhare desh' , now its changed . Every third foreign tourist visiting India 
+           travels to Rajasthan as it is part of the Golden Triangle for tourists visiting India.</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/ukt3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HIMACHAL TOURISIUM</h5>
+        <p class="card-text">This is popularly renowned for its Himalayan landscapes and popular hill-stations.
+           Many outdoor activities such as rock climbing, mountain biking, paragliding, ice-skating, trekking, 
+           rafting, and heli-skiing are popular tourist attractions in Himachal Pradesh. ... Shimla is also a
+            famous skiing attraction in India.</p>
+        <p class="card-text"><small class="text-muted">STARTING FROM Rs-17000/-</small></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/goabanner.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GOA TOURISIUM</h5>
+          <p class="card-text">Referred as the Queen of Goa Beaches, Calangute Beach, famous for its golden 
+            shimmering sand, is lined with amazing shacks which offer authentic Goan cuisine and drinks. ...
+             Things to do: The famous beach in Goa is a perfect place for seafood lovers to enjoy the
+              authentic food and indulge in a lot of shopping</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/banner8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">UTTRAKHAND TOURISIUM</h5>
+          <p class="card-text">Kausani. A perfect hideout for the newlyweds, Kausani is a popular tourist destination in Uttarakhand. This
+             sylvan hill station is one of the best places to avoid the maddening crowd of the cities. A window to the Nanda Devi, Panchachuli 
+             and Trishul peaks, Kausani makes a perfect retreat..</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/kashmir banner.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SRINAGAR TOURISIUM</h5>
+          <p class="card-text">The capital of J&K, Srinagar is one of the most beautiful places in Kashmir. Take a shikara ride on the peaceful 
+            Dal Lake, view the city from the top of Shankaracharya Temple and stay in the iconic house boats on your next trip.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/puri banner.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PURI TOURISIUM</h5>
+          <p class="card-text">Puri is famous for the world famous Jagannath Temple & Longest Golden Beach. It is one of the Dhamas 
+            (Holiest of the holy place) out of four Dhamas i.e. Puri, Dwarika, Badrinath & Rameswar, in India. Lord Jagannath, Devi 
+            Subhadra and elder brother Balabhadra are being worshipped in Puri (The Purusottama Kshetra)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card text-center">
+    <div class="card-header">
+      <ul class="nav nav-pills card-header-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">BOOK NOW</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CHECK PRICE</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Trending International Destinations</h5>
+      <p class="card-text">The world is now just a hop, skip and jump away and here’s how you can make your travel easier and
+        better. Our various vacation packages, trip packages and holiday packages offer a kaleidoscopic range
+         of international destinations that meet every interest, schedule and requirement. The best part is,
+          you won’t have to worry about all the planning details; just pack your bag, get set and go.</p>
+      <a href="#" class="btn btn-primary">Read more...</a>
+    </div>
+  </div>
+
+
+
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="images/dubai.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">DUBAI TOURISIUM</h5>
+        <p class="card-text">Dubai tourism is all about the futuristic charm of modern skyscrapers, legendary nightlife, exotic landscapes,
+           and desert safaris. ... Being the Emirate of Dubai's capital, it's a city bustling with life. Burj Khalifa, Dubai Mall, Dubai Fort,
+            and Palm Islands are top tourist places in Dubai..</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">STARTING FROM Rs-21000/-</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/MALDIVES.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">MALDIVES TOURISIUM</h5>
+        <p class="card-text">The Maldives is famous for a number of reasons, including its vibrant culture, pristine beaches,
+           sprawling greenery, and fascinating landmarks. Apart from the numerous enchanting landmarks, Maldives is also famous for 
+           water sports and other adventure activities</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">STARTING FROM Rs-56000/-</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/TURKEY.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">TURKEY TOURISIUM</h5>
+        <p class="card-text">Turkey is famous for a diverse set of both oriental and European elements — from the traditional Turkish tea to
+           the majestic Hagia Sophia. It's also famous for its carpets, hammam and bazaars, destinations like Istanbul and Cappadocia, and 
+           sweet treats like Turkish delights and baklava.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">STARTING FROM Rs-36000/-</small>
+      </div>
+    </div>
+  </div>
+
+
+      <br> <br>
+
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/BANNER6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/BANNER7.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/BANNER9.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <br> <br>
+
+
+  
+
+
+
+
+
+  
+  <div class="card-group">
+    <div class="card">
+     
+      <div class="card-body">
+        <img src="images/trust.jpg" height="80" alt="">
+        <h5 class="card-title">Trusted Advisor under</h5>
+        <p class="card-text">Over 70 years of expertise with innovation at its core. we pioneered group travel in india & are continuously
+           evolving and investing in leading edge technology for a perfect holiday</p>
+       
+      </div>
+    </div>
+    <div class="card">
+      
+      <div class="card-body">
+        <img src="images/respon.png" height="80" alt="">
+        <h5 class="card-title">Responsive</h5>
+        <p class="card-text">Our Holiday are co-created with our customers, ensuring suggestions and feedback are the basis of creating
+           magical holiday.</p>
+        
+      </div>
+    </div>
+    <div class="card">
+      
+      <div class="card-body">
+        <img src="images/memorable-logos.png" height="80" alt="">
+        <h5 class="card-title">Memorable Experiences</h5>
+        <p class="card-text">Join the Rajasthan tours and travels family - Over 5 lakh customers have created their most memorable
+           Experiences with us </p>
+        
+      </div>
+    </div>
+
+    <div class="card">
+      
+      <div class="card-body">
+        <img src="images/shake.png" height="80" alt="">
+        <h5 class="card-title">Ease</h5>
+        <p class="card-text">Choose from a wide range of over a thoushand holiday and experiences . Special holidays catering to the culture
+           diversity of india</p>
+        
+      </div>
+    </div>
+
+    <div class="card">
+      
+      <div class="card-body">
+        <img src="images/connect.png" height="80" alt="">
+        <h5 class="card-title">Recognize & Connect</h5>
+        <p class="card-text">An experienced team of over 1000 travel professional across 160+ touch points in india & NRI markests to cater to your travel needs</p>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <footer class="bg-warning text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/login/" role="button"
+          ><img src="images/fb.png" height="30" alt=""><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/?lang=en" role="button"
+          ><img src="images/twitter.png" height="30" alt=""><i class="fab fa-twitter"></i
+        ></a>
+  
+       <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+          ><img src="images/insta.png" height="30" alt=""><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/login" role="button"
+          ><img src="images/linkedin.png" height="30" alt=""><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/" role="button"
+          ><img src="images/github.jpg" height="30" alt=""><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Rajasthantourandtravel.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+ 
+
+</body>
+</html>
